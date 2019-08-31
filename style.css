@@ -1,0 +1,151 @@
+/* reset css */
+html, body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+em {
+    font-style: normal;
+}
+
+button {
+    border: none;
+    padding: 0;
+
+}
+
+/* code */
+
+.wrap {
+    width: 600px;
+    height: 340px;
+    /* margin: top right bottom left; */
+    margin: 56px auto 0; 
+}
+
+
+
+.list_nav {
+    overflow: hidden;
+
+}
+
+.list_nav .item {
+    float: left;
+    width: 200px;   
+    text-align: center;
+    background-color: #111;
+}
+
+
+
+/* 호버된 상태를 설정할때 */
+
+.list_nav .item:hover {
+    background-color: #333;
+}
+
+.list_nav .item:hover .link {
+    /* color: blue; */
+}
+
+
+.list_nav .item .link {
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 40px;
+
+}
+
+
+
+.content {
+    overflow: hidden;
+    background-image: url(./img/bg_civilwar.jpeg);
+
+    background-size: 100%;
+    background-position: -120px -24px;
+    background-repeat: no-repeat;
+    background-color: #0a0a0a;
+
+}
+
+.content .info_area {
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.title {
+    display: inline-block;
+    padding-top: 41px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;    
+}
+
+.desc {
+    display: inline-block;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.btn_watch {
+    display: inline-block;
+    width: 120;
+    height: 34;
+    padding: 10px 26px;
+    background-color: #c62828;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    font-size: 12px;    
+    font-weight: 600;
+    color: #fff;
+    border-radius: 17px;
+}
+
+.btn_watch:hover {
+
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+
+.list_detail {
+    font-size: 0;
+    margin-top: 50px;
+}
+
+
+
+
+.list_detail .item {
+    display: inline-block;
+    vertical-align: top;
+    /* width: 100px; */
+    width: 33.333%;
+
+    font-size:14px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #fff;
+} 
+
+
+
+
